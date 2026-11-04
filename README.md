@@ -63,9 +63,18 @@ This includes:
 - Creating and managing user accounts.
 - Assigning permissions based on job responsibilities.
 - Applying the principle of least privilege.
+
+
 - Ensuring employees only have access to the resources necessary to perform their jobs.
 
 7. Key Takeaways
 
 This lab helped me understand how Azure supports network security, virtual machine management, remote connectivity, and identity and access management.
 I gained a better understanding of how administrators can restrict network traffic, manage cloud resources, and control user permissions within an organization.
+
+I created three employees and assigned their privileges based on their roles. 
+Tasha has the highest level of privileges within the company as the Global Administrator. She has broad administrative control over Microsoft Entra ID and its services, including managing users, groups, permissions, authentication settings, and assigning administrative roles.
+Jasmine is the SOC Manager and is assigned the Security Reader role. Because her responsibilities are related to security operations, she can view security information, alerts, reports, and configurations within Microsoft Entra ID. However, she has read-only access and does not have permission to modify security settings or make administrative changes.
+Matthew is the IAM Engineer and is responsible for managing identity and access permissions. His responsibilities include assigning roles and ensuring employees have the appropriate access based on their job responsibilities. He may be assigned the Privileged Role Administrator role if he needs to manage administrative role assignments. His access should be limited to the permissions necessary to perform his job.
+These examples demonstrate the Principle of Least Privilege, which means employees should only receive the access and permissions necessary to perform their assigned job duties.
+
