@@ -69,12 +69,18 @@ This includes:
 
 7. Key Takeaways
 
-This lab helped me understand how Azure supports network security, virtual machine management, remote connectivity, and identity and access management.
-I gained a better understanding of how administrators can restrict network traffic, manage cloud resources, and control user permissions within an organization.
+## Key Takeaways
 
-I created three employees and assigned their privileges based on their roles. 
-Tasha has the highest level of privileges within the company as the Global Administrator. She has broad administrative control over Microsoft Entra ID and its services, including managing users, groups, permissions, authentication settings, and assigning administrative roles.
-Jasmine is the SOC Manager and is assigned the Security Reader role. Because her responsibilities are related to security operations, she can view security information, alerts, reports, and configurations within Microsoft Entra ID. However, she has read-only access and does not have permission to modify security settings or make administrative changes.
-Matthew is the IAM Engineer and is responsible for managing identity and access permissions. His responsibilities include assigning roles and ensuring employees have the appropriate access based on their job responsibilities. He may be assigned the Privileged Role Administrator role if he needs to manage administrative role assignments. His access should be limited to the permissions necessary to perform his job.
-These examples demonstrate the Principle of Least Privilege, which means employees should only receive the access and permissions necessary to perform their assigned job duties.
+This lab strengthened my understanding of how Microsoft Azure supports network security, virtual machine management, remote connectivity, and identity and access management. I explored how administrators can restrict network traffic, manage cloud resources, and assign permissions based on organizational roles and responsibilities.
 
+As part of the exercise, I created three simulated employee accounts and assigned administrative roles based on their job functions:
+
+- **Tasha – Global Administrator:** Assigned the highest level of Microsoft Entra ID administrative privileges in this scenario. Responsibilities include managing users, groups, authentication settings, and administrative role assignments.
+
+- **Jasmine – SOC Manager (Security Reader):** Assigned read-only access to review security information, alerts, reports, and relevant configurations without making administrative changes.
+
+- **Matthew – IAM Engineer (Privileged Role Administrator):** Assigned a role that allows him to manage Microsoft Entra administrative role assignments. This supports identity and access management responsibilities while limiting access to the permissions needed for his duties.
+
+This exercise demonstrated the **Principle of Least Privilege**, which means users should only receive the access necessary to perform their assigned responsibilities. It also reinforced the importance of separating administrative duties and assigning permissions carefully to reduce unnecessary access and security risks.
+
+*Note: Employee names and role assignments are part of a simulated lab scenario.*
